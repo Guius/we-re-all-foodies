@@ -1,6 +1,6 @@
 import { IsString, Validate } from 'class-validator';
-import { IsTypeIngredient } from '../utils/IsTypeIngredient';
-import { IsTypeStep } from '../utils/IsTypeStep';
+import { IsTypeIngredient } from './../utils/IsTypeIngredient';
+import { IsTypeStep } from './../utils/IsTypeStep';
 
 import { Ingredient } from './ingredient.dto';
 import { Step } from './step.dto';
