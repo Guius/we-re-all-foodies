@@ -1,5 +1,12 @@
+import { IsNumber, IsString } from 'class-validator';
+
 export class Ingredient {
+  @IsString()
   name: string;
+
+  @IsString()
   unit: string;
-  amount: number;
+
+  @IsNumber()
+  amount: string;
 }

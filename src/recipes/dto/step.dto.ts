@@ -1,4 +1,9 @@
+import { IsString } from 'class-validator';
+
 export class Step {
+  @IsString()
   name: string;
-  steps: [string];
+
+  @IsString()
+  step: string;
 }

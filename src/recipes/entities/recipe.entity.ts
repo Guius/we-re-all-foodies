@@ -11,7 +11,7 @@ export class Recipe {
   name: string;
 
   @Column('json')
-  steps: [Step];
+  steps: any;
 
   @Column('json')
   ingredients: [Ingredient];
